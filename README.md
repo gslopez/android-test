@@ -4,6 +4,7 @@ android-test
 Hola, este repo tiene una aplicacion de prueba para android.
 
 Requisitos:
+
 1.-Eclipse (tambien existe Android Studio, pero yo nunca lo he utilizado)
 
 2.-Android SDK instalado en eclipse
@@ -37,8 +38,11 @@ La aplicacion consiste en un boton que tiene mi nombre, y que al ser presionado 
 y mi nombre nuevamente. Es super simple, pero quiero que se fijen en lo siguiente:
 
 1.-¿Como se le asigna mi nombre al boton, y en todas las partes que sale?
+
 2.-¿Como se abre una ventana nueva?
+
 3.-¿Como se maneja la distribucion espacial de los elementos?
+
   *Averiguar sobre LinearLayout y otros layout
 
 --------------------------
