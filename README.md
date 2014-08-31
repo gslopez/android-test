@@ -9,7 +9,7 @@ Requisitos:
 
 2.-Android SDK instalado en eclipse
 
-3.-Versión 3.2 de Android instalada
+3.-Version 3.2 de Android instalada
 
 Luego, estamos casi listos para correr la aplicacion. Solo falta configurar el emulador de Android, que emulara un dispositivo
 que correra la aplicacion. Hay varios tutoriales en internet sobre como configurar esta parte, lo mas importante es que nos fijemos
