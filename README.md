@@ -81,4 +81,8 @@ Asi es como trabajaremos durante el semestre, asi que es una buena manera para p
 Si tienen cualquier duda, pueden preguntarme a mi por cualquier medio, estare pendiente.
 
 
+*Como enviar un Pull Request
+https://help.github.com/articles/creating-a-pull-request
+
+
 Saludos y suerte !
