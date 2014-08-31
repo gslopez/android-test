@@ -4,9 +4,9 @@ android-test
 Hola, este repo tiene una aplicaci贸n de prueba para android.
 
 Requisitos:
--Eclipse (tambien existe Android Studio, pero yo nunca lo he utilizado)
--Android SDK instalado en eclipse
--Versi贸n 3.2 de Android instalada
+1.-Eclipse (tambien existe Android Studio, pero yo nunca lo he utilizado)
+2.-Android SDK instalado en eclipse
+3.-Versi贸n 3.2 de Android instalada
 
 Luego, estamos casi listos para correr la aplicaci贸n. Solo falta configurar el emulador de Android, que emular谩 un dispositivo
 que correr谩 la aplicaci贸n. Hay varios tutoriales en internet sobre como configurar esta parte, lo mas importante es que nos fijemos
@@ -34,9 +34,9 @@ Descripcion de la app:
 La aplicaci贸n consiste en un boton que tiene mi nombre, y que al ser presionado abre otra ventana que muestra una foto, que yo sub铆,
 y mi nombre nuevamente. Es super simple, pero quiero que se fijen en lo siguiente:
 
--驴Como se le asigna mi nombre al bot贸n? 驴Y en todas las partes que sale?
--驴Como se abre una ventana nueva?
--驴Como se maneja la distribucion espacial de los elementos?
+1.-緾omo se le asigna mi nombre al bot贸n? 驴Y en todas las partes que sale?
+2.-緾omo se abre una ventana nueva?
+3.-緾omo se maneja la distribucion espacial de los elementos?
   *Averiguar sobre LinearLayout y otros layout
 
 --------------------------
