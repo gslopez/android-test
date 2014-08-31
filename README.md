@@ -18,7 +18,8 @@ en la version de android que se utilizara (3.2). Aqui dejo un tutorial:
 *Tutorial para crear emulador: http://androideity.com/2011/07/07/crear-una-avd-en-eclipse/
 
 ---------------------------
-Conocimientos previos:
+Conocimientos previos
+============
 
 La aplicacion es muy simple, pero tiene varias cosas que son clasicas en cualquier version de android.
 Lo primero que debemos entender bien es la estructura de carpetas que android utiliza. 
@@ -26,16 +27,31 @@ A continuacion dejo dos tutoriales que explican esto y otras cosas sobre Android
 
 *Curso de sgoliver (con este aprendi yo):
   http://www.sgoliver.net/blog/?page_id=2935
+
 *Curso de aprendeandroid.com (encontre muy bueno este curso, y no es tan largo)
   http://www.aprendeandroid.com/menu.htm
 
 Existen muchos otros por internet, por lo que son libres de aprender con cualquiera.
 
 --------------------
-Descripcion de la app:
+Descripcion de la app
+============
 
-La aplicacion consiste en un boton que tiene mi nombre, y que al ser presionado abre otra ventana que muestra una foto, que yo subi,
-y mi nombre nuevamente. Es super simple, pero quiero que se fijen en lo siguiente:
+La aplicacion consiste en un boton que tiene mi nombre, y que al ser presionado abre otra ventana que muestra una foto, que yo subi, y mi nombre nuevamente. 
+
+En el fondo, tiene dos Activity, una principal (MainActivity), que es la clase que controla la pantalla de bienvenida, y GonzaloActivity, que es la clase que maneja la segunda pantalla.
+
+En android, es muy comun que cada activity tenga su propio layout, que es desde donde podemos controlar el diseño de 
+la ventana. Este comportamiento es parecido a WPF en .Net .
+
+En la carpeta res/layout estan los xml de diseño de cada activity. activity_main.xml para MainActivity, y 
+activity_gonzalo.xml para GonzaloActivity. Para agregar botones y esas cosas, eclipse tiene una interfaz grafica 
+super comoda, en la que pueden arrastrar el boton y soltarlo. La unica diferencia con WPF, es que no necesariamente el boton quedará en la posicion en que lo coloquen, esto dependera del layout.
+
+Para ver el editor grafico, deben hacer doble clic en el archivo .xml, y deberían ver una pestaña "Graphical Layout"
+
+
+La app es super simple, pero quiero que se fijen en lo siguiente:
 
 1.-¿Como se le asigna mi nombre al boton, y en todas las partes que sale?
 
@@ -47,6 +63,7 @@ y mi nombre nuevamente. Es super simple, pero quiero que se fijen en lo siguient
 
 --------------------------
 Actividad de refuerzo Android y Git
+============
 
 Para confirmar que todo esta funcionando bien, y como desafio para evaluar sus conocimientos en Android, les pido porfavor que hagan
 lo siguiente:
