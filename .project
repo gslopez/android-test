@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Android-test-2</name>
+=======
+	<name>Android-test</name>
+>>>>>>> 373e402ef6dc478a638d7753e9938ea5f9c4c7d5
 	<comment></comment>
 	<projects>
 	</projects>
