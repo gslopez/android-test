@@ -7,18 +7,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class MainActivity extends Activity {
+public class PauliActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_pauli);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.pauli, menu);
 		return true;
 	}
 
@@ -34,16 +34,10 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void gonzaloOnClick(View v){
-		
-		Intent i = new Intent(this,GonzaloActivity.class);
+	//return to first view
+	public void back(View v){
+		Intent i = new Intent(this,MainActivity.class);
 		startActivity(i);
+		finish();
 	}
-	
-	public void pauliOnClick(View v){
-		
-		Intent i = new Intent(this,PauliActivity.class);
-		startActivity(i);
-	}
-	
 }
