@@ -7,5 +7,8 @@
     <string name="title_activity_gonzalo">GonzaloActivity</string>
     <string name="gonzalo_name">Gonzalo Lopez</string>
     <string name="back">Back</string>
+    <string name="title_activity_pauli">PauliActivity</string>
+    <string name="pauli_name">Pauli</string>
+    <string name="pauli_yeah">YEAH!!!</string>
 
 </resources>
