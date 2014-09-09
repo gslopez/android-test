@@ -8,30 +8,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.android_test.MainActivity" >
+    tools:context="com.example.android_test.DomingoActivity" >
 
     
-    <Button
-        android:id="@+id/button1"
+     <TextView
+        android:id="@+id/tvid"
         android:layout_width="161dp"
         android:layout_height="wrap_content"
-        android:onClick="gonzaloOnClick"
-        android:text="@string/gonzalo_name" />
-
-      
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="pauliOnClick"
-        android:text="@string/pauli_name" />
-
-    <Button
-        android:id="@+id/buttonDomingo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="domingoOnClick"
         android:text="@string/domingo_name" />
+    
+    <Button
+        android:id="@+id/buttonatras"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:onClick="domingoBack"
+        android:text="@string/back" />
+
   
 
 </LinearLayout>

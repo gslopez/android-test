@@ -45,5 +45,10 @@ public class MainActivity extends Activity {
 		Intent i = new Intent(this,PauliActivity.class);
 		startActivity(i);
 	}
+public void DomingoOnClick(View v){
+		
+		Intent i = new Intent(this,DomingoActivity.class);
+		startActivity(i);
+	}
 	
 }
