@@ -25,17 +25,21 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080005;
-        public static final int button1=0x7f080001;
-        public static final int button2=0x7f080002;
-        public static final int editText1=0x7f080000;
-        public static final int editText2=0x7f080003;
-        public static final int txtview1=0x7f080004;
+        public static final int action_settings=0x7f080008;
+        public static final int button1=0x7f080003;
+        public static final int button2=0x7f080004;
+        public static final int buttonDomingo=0x7f080005;
+        public static final int buttonatras=0x7f080001;
+        public static final int editText1=0x7f080002;
+        public static final int editText2=0x7f080006;
+        public static final int tvid=0x7f080000;
+        public static final int txtview1=0x7f080007;
     }
     public static final class layout {
-        public static final int activity_gonzalo=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_pauli=0x7f030002;
+        public static final int activity_domingo=0x7f030000;
+        public static final int activity_gonzalo=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_pauli=0x7f030003;
     }
     public static final class menu {
         public static final int gonzalo=0x7f070000;
@@ -46,10 +50,12 @@ public final class R {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int back=0x7f050005;
+        public static final int domingo_name=0x7f050009;
         public static final int gonzalo_name=0x7f050004;
         public static final int hello_world=0x7f050001;
         public static final int pauli_name=0x7f050007;
         public static final int pauli_yeah=0x7f050008;
+        public static final int title_activity_domingo=0x7f05000a;
         public static final int title_activity_gonzalo=0x7f050003;
         public static final int title_activity_pauli=0x7f050006;
     }
