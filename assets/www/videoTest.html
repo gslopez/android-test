@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+    <head>
+        <title>screen2</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script>
+            function playVideo()
+            {
+                var cV = document.getElementById("video1");
+                cV.addEventListener('ended', function ()
+                    {
+                    cV.removeEventListener('ended'); 
+                    playAudio();
+                    }, false);
+                cV.play();
+            }
+   
+            function playAudio()
+           {
+                var cA = document.getElementById("audio1");
+                cA.addEventListener('ended', function ()
+                    {
+                     cA.removeEventListener('ended'); 
+                     playVideo();
+                    }, false);
+                cA.play();
+           }
+            function init(){
+            
+                JsHandler.initVideo();
+            }
+
+            $(document).ready(function(){
+                init();
+            });
+        </script>
+    </head>
+    <body>
+
+            <video id="video1" height="240" width="360" controls autoplay >
+                <source src="file:///android_asset/www/big_buck_bunny.mp4" type="video/mp4">
+       		 </video>
+    </body>
+</html>
