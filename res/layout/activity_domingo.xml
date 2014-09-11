@@ -10,10 +10,24 @@
     android:orientation="vertical"
     tools:context="com.example.android_test.DomingoActivity" >
 
+
     
-     <WebView android:id="@+id/web_google"
-             android:layout_width="fill_parent"
-             android:layout_height="400dp" />
+     <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:onClick="domingoBrowser"
+        android:text="@string/browser"
+        />
+    
+     <Button
+        android:id="@+id/buttonPelotas"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:onClick="domingoPelotas"
+        android:text="@string/pelotas"
+        />
+    
     
     <Button
         android:id="@+id/buttonatras"
@@ -23,6 +37,5 @@
         android:text="@string/back"
         />
 
-  
 
 </LinearLayout>

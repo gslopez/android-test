@@ -12,5 +12,9 @@
     <string name="pauli_yeah">YEAH!!!</string>
     <string name="domingo_name">Domingo!</string>
     <string name="title_activity_domingo">Aplicacion de Don Domingo</string>
+    <string name="title_activity_browser">Browser in app</string>
+    <string name="browser">Ir a browser</string>
+    <string name="pelotas">Ir a pelotas</string>
+    <string name="title_activity_pelotas">pantalla como las pelotas</string>
 
 </resources>

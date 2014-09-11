@@ -36,6 +36,14 @@
             android:name=".DomingoActivity"
             android:label="@string/title_activity_domingo" >
         </activity>
+        <activity
+            android:name=".BrowserActivity"
+            android:label="@string/title_activity_browser" >
+        </activity>
+        <activity
+            android:name=".PelotasActivity"
+            android:label="@string/title_activity_pelotas" >
+        </activity>
     </application>
 
 </manifest>
