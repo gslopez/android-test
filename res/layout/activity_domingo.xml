@@ -27,6 +27,13 @@
         android:onClick="domingoPelotas"
         android:text="@string/pelotas"
         />
+     <Button
+        android:id="@+id/buttonVideo"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:onClick="domingoVideo"
+        android:text="@string/video"
+        />
     
     
     <Button

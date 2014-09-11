@@ -33,5 +33,11 @@ public class DomingoActivity extends Activity{
 		startActivity(i);
 		finish();
 	}
+	public void domingoVideo(View v)
+	{
+		Intent i = new Intent(this,VideoActivity.class);
+		startActivity(i);
+		finish();
+	}
 
 }

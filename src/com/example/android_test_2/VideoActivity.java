@@ -8,17 +8,17 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class PelotasActivity extends Activity{
+public class VideoActivity extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_pelotas);
-		WebView engine = (WebView) findViewById(R.id.web_pelotas);
+		setContentView(R.layout.activity_video);
+		WebView engine = (WebView) findViewById(R.id.web_video);
 		
 		// engine.getSettings().setPluginsEnabled (true);
 	    engine.getSettings().setJavaScriptEnabled (true);
-		engine.loadUrl("file:///android_asset/www/Multi%20Billiard%202.html");
-		
+		engine.loadUrl("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4");
+
 	}
 	
 	public void domingoBack(View v)

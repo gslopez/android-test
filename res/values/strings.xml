@@ -16,5 +16,7 @@
     <string name="browser">Ir a browser</string>
     <string name="pelotas">Ir a pelotas</string>
     <string name="title_activity_pelotas">pantalla como las pelotas</string>
+    <string name="title_activity_video">Ver video</string>
+    <string name="video">Ir a video</string>
 
 </resources>
